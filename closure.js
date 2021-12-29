@@ -13,6 +13,8 @@ let res = addOne()
 let result = res()
 console.log(result)
 
+
+//以下两段代码为闭包的理解
 var name = "The Window";
 
 var object = {
