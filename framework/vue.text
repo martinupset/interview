@@ -1,0 +1,12 @@
+1. 子组件1，子组件2，父组件3的生命周期顺序：
+父beforeCreate -> 
+父created -> 
+父beforeMount -> 
+子beforeCreate -> 
+子created -> 
+子beforeMount -> 
+子mounted -> 
+父mounted
+
+2.为什么存在vuex而不放在local storage:
+vuex在内存，local storage在硬盘
